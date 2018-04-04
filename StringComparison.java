@@ -4,7 +4,7 @@ class StringComparison
 	{
 		//.equals() operator use
 		String s1="babhinav";
-		String s2="abhinav";
+		String s2="abhinav vishwakarma";
 		String s=new String("abhinav");
 		String s4="sABHINAV";
 		System.out.println(s1.equals(s2));
@@ -18,6 +18,11 @@ class StringComparison
 		System.out.println("\n");
 		System.out.println(s1.compareTo(s2));
 		System.out.println(s1.compareTo(s4));
+		//toString method
+		Integer a=5;
+		System.out.println(a.toString());
+		System.out.println(s2.indexOf("vishwakarma"));
+
 
 	}
 

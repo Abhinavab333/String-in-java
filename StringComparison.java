@@ -22,6 +22,8 @@ class StringComparison
 		Integer a=5;
 		System.out.println(a.toString());
 		System.out.println(s2.indexOf("vishwakarma"));
+		//contains method
+		System.out.println(s1.contains("abhiv"));
 
 
 	}

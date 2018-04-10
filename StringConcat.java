@@ -7,6 +7,6 @@ class StringConcat
 		String s2="Rkgit";
 		System.out.println(s1.concat(s2));
 		//Substring in string
-		System.out.println(s1.substring(1,3));
+		
 	}
 }
